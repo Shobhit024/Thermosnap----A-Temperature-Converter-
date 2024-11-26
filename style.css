@@ -1,0 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  padding: 20%;
+  width: 80%;
+}
+.center-container {
+  border-style: solid;
+  width: 70%;
+}
+.celcius,
+.Kelvin,
+.Fahrenheit {
+  display: flex;
+  justify-content: space-between;
+  padding: 1%;
+}
+#rt1,
+#rt2,
+#rt3 {
+  width: 50%;
+  border-style: SOLID;
+}
+body {
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: linear-gradient(39deg, #ece3e3, #9c27b0, #ec8f07);
+  transition: background 0.7s linear;
+}
+
+.result-circle {
+  width: 20%;
+  height: 200px;
+  margin: 40px;
+  border-radius: 50%;
+  background: #4caf50;
+  color: white;
+  display: grid;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  font-weight: bold;
+
+  margin-bottom: 40px;
+}
+.result-circle .value {
+  margin-top: 50px; /* Adds space above the value */
+  display: flex; /* Ensures spacing works */
+}
+
+.hidden {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+  width: 70%;
+}

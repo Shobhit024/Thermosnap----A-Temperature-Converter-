@@ -3,7 +3,7 @@ function rotateGradient() {
   angle = (angle + 1) % 360;
   document.body.style.background = `linear-gradient(${angle}deg, #ece3e3, #9C27B0, #ec8f07)`;
 }
-setInterval(rotateGradient, 50);
+setInterval(rotateGradient, 100);
 
 // ----------------------------------------------------
 document.addEventListener("DOMContentLoaded", () => {
